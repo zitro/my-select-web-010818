@@ -1,13 +1,21 @@
----
-tags: ruby, enumerable, metaprogramming, blocks, iteration, advanced
-languages: ruby
-resources: 4
----
 # my_select
+
+## Objectives
+
+1. Continue to practice using `yield` and blocks
+2. Gain a deeper understanding of a common enumerable, `.select`
+
+## Instructions
 
 Now that we've built our own each and collect method, let's build our own select method! If you don't remember what `.select` does, before sure to check out the [ruby docs](http://ruby-doc.org/core-2.1.3/Enumerable.html#method-i-select) on it.
 
 Write your code in "my_select.rb". Get the tests to pass.
+
+A few things to think about: 
+
+* What is the return value of yielding a character to a block?
+* How can you ensure your select method can respond appropriately to being passed an argument of an empty collection?
+
 
 ## Resources
 * [All About Ruby](http://allaboutruby.wordpress.com/) - [Ruby Blocks](http://allaboutruby.wordpress.com/2006/01/20/ruby-blocks-101/)
