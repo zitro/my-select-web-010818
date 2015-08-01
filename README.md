@@ -7,7 +7,7 @@
 
 ## Instructions
 
-Now that we've built our own each and collect method, let's build our own select method! If you don't remember what `.select` does, before sure to check out the [ruby docs](http://ruby-doc.org/core-2.1.3/Enumerable.html#method-i-select) on it.
+Now that we've built our own each and collect method, let's build our own select method! If you don't remember what `.select` does, be sure to check out the [ruby docs](http://ruby-doc.org/core-2.1.3/Enumerable.html#method-i-select) on it.
 
 Write your code in "my_select.rb". Get the tests to pass.
 
