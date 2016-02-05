@@ -9,6 +9,8 @@
 
 Now that we've built our own `.each` and `.collect` methods, let's build our own `.select` method! If you don't remember what `.select` does, review the [Ruby docs](http://ruby-doc.org/core-2.2.2/Enumerable.html#method-i-select) on it.
 
+Run `bundle install` first to update or install any gems. 
+
 Write your code in `lib/my_select.rb`. Get the tests to pass.
 
 A few things to think about: 
