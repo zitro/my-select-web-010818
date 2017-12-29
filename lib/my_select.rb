@@ -3,9 +3,12 @@
 def my_select(collection)
  # your code here!
   i = 0
+  nArray = []
   while i < collection.length
-    yield(collection[i])
-    i = i + 1
+    if yield(collection[i])
+      nArray << array[i]
+    end
+    i += 1
   end
-  collection
+  nArray
 end
