@@ -6,7 +6,7 @@ def my_select(collection)
   nArray = []
   while i < collection.length
     if yield(collection[i])
-      nArray << array[i]
+      nArray << collection[i]
     end
     i += 1
   end
